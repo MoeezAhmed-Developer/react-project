@@ -2,7 +2,7 @@ function Header() {
   return (
     <header>
       <div className="site-logo">
-        <a href="#">BulandiHub</a>
+        <a href="/">BulandiHub</a>
         <nav>
           <ul>
             <li>
