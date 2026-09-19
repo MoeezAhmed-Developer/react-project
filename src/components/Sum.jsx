@@ -8,7 +8,7 @@ function Sum() {
       <h2>{x - y}</h2>
       <h3>{x / y}</h3>
       <h4>{x * y}</h4>
-      <button onClick={() => console.log(y + y)}>click</button>
+      <button onClick={() => alert(y + y)}>click</button>
     </div>
   );
 }
