@@ -2,7 +2,7 @@ import HelloWorld, { Profile, UniqueKey } from "./components/Hello";
 import Sum from "./components/Sum";
 import { Header } from "./components/Header";
 import Footer from "./components/Footer";
-import "App.css";
+// import "App.css";
 
 function App() {
   return (
