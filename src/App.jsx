@@ -1,3 +1,4 @@
+import "./App.css";
 import HelloWorld, { Profile, UniqueKey } from "./components/Hello";
 import Sum from "./components/Sum";
 import { Header } from "./components/Header";
