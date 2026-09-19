@@ -1,6 +1,7 @@
 function Sum() {
   const x = 170;
   const y = 40;
+   const total = `the total value is ${y + y}`;
 
   return (
     <div
@@ -20,7 +21,7 @@ function Sum() {
       <h4>Multiplication: {x * y}</h4>
 
       <button
-        onClick={() => alert("Total is", y + y)}
+        onClick={() => alert(total)}
         style={{
           padding: "10px 20px",
           border: "none",
