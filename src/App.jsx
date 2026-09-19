@@ -1,20 +1,28 @@
 import "./App.css";
-import HelloWorld, { Profile, UniqueKey } from "./components/Hello";
-import Sum from "./components/Sum";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import { Header } from "./components/Header";
 import Footer from "./components/Footer";
-// import "App.css";
+
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Services from "./pages/Services";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Header />
-      <HelloWorld />
-      <Profile />
-      <h1>{UniqueKey}</h1>
-      <Sum />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/about" element={<About />} />
+        <Route path="contact" element={<Contact />} />
+      </Routes>
+
       <Footer />
-    </>
+    </BrowserRouter>
   );
 }
 
