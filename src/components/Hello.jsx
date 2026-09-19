@@ -1,0 +1,21 @@
+function HelloWorld() {
+  return (
+    <div>
+      <h1>Welcome to My Website</h1>
+      <p>Hello! I'm Moeez, a passionate Web Developer.</p>
+      <a href="#">Learn More</a>
+    </div>
+  );
+}
+
+export function Profile() {
+  return (
+    <div>
+      <h2>Profile Settings</h2>
+    </div>
+  );
+}
+
+export const UniqueKey = "467$%$%Y%^%^";
+
+export default HelloWorld;
