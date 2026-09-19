@@ -8,7 +8,7 @@ function HelloWorld() {
   );
 }
 
-export function Profile() {
+function Profile() {
   return (
     <div>
       <h2>Profile Settings</h2>
@@ -16,6 +16,7 @@ export function Profile() {
   );
 }
 
-export const UniqueKey = "467$%$%Y%^%^";
+const UniqueKey = "467$%$%Y%^%^";
 
 export default HelloWorld;
+export { Profile, UniqueKey };
