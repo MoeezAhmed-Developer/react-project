@@ -20,7 +20,7 @@ function Sum() {
       <h4>Multiplication: {x * y}</h4>
 
       <button
-        onClick={() => alert(y + y)}
+        onClick={() => alert("Total is", y + y)}
         style={{
           padding: "10px 20px",
           border: "none",
